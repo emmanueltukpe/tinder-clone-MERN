@@ -228,14 +228,14 @@ nav .logo-container .logo {
 }
 
 .dashboard .card-container {
-  width: 400px;
-  height: 550px;
+  width: 450px;
+  height: 600px;
 }
 
 .card {
   background-color: #fff;
-  width: 400px;
-  height: 550px;
+  width: 450px;
+  height: 600px;
   border-radius: 30px;
   background-size: cover;
   background-position: center;
@@ -249,4 +249,68 @@ nav .logo-container .logo {
   position: absolute;
   bottom: 0;
   padding: 10px ;
+}
+
+.chat-container{
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, 
+  rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+  width: 30%;
+  text-align: left;
+  z-index: 1;
+}
+
+.chat-container-header{
+  background: linear-gradient(45deg, #fe3072, #ff5940);
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.chat-container .options {
+  background-color: #fff;
+  border: none;
+  border-bottom: solid 4px rgb(243, 33, 33);
+  font-size: 20px;
+  margin: 2px;
+  padding: 10px;
+}
+
+.chat-container .options:disabled  {
+  border-bottom: solid 4px rgb(187, 187, 187);
+}
+
+.chat-container .profile,
+.chat-container .logout-icon  {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  color: white;
+}
+
+.img-container {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  overflow: hidden; 
+  margin: 10px;
+}
+
+.img-container img {
+  width: 100%;
+}
+
+
+/*-----  Chat Disaplay ------*/
+.chat-display {
+  padding: 20px;
+  height: 60vh;
+  overflow-y: auto;
+}
+
+.chat-input {
+  padding: 20px;
+  display: flex;
+  flex-direction: column ;
 }

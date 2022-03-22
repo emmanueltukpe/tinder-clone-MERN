@@ -1,6 +1,6 @@
 const MatchesDisaplay = () => {
     return (
-        <div className="matches-disaply">Header</div>
+        <div className="matches-disaply"></div>
     )
 }
 
