@@ -131,7 +131,7 @@ nav .logo-container .logo {
   font-size: 17px;
 }
 
-/*----- Auth Modal ------*/
+/*----- onboarding ------*/
 .onboarding {
   border-top: solid 1px rgb(158, 158, 158);
 }
@@ -189,7 +189,7 @@ nav .logo-container .logo {
 }
 
 .onboarding form input[type="number"] {
-  width: 10%;
+  width: 13%;
 }
 
 .onboarding form input[type="radio"]:checked + label {
