@@ -309,7 +309,8 @@ nav .logo-container .logo {
   overflow-y: auto;
 }
 
-.chat-input {
+.chat-input 
+.matches-display {
   padding: 20px;
   display: flex;
   flex-direction: column ;
